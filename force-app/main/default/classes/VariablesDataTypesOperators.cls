@@ -225,7 +225,7 @@ public with sharing class VariablesDataTypesOperators {
         // Add parentheses around the addition operation so that it is performed before multiplication
         Integer result = (a + b) * c;
 
-        // Return the result
+        
         return result; 
     }
 
@@ -293,8 +293,6 @@ public with sharing class VariablesDataTypesOperators {
         // Perform the division and cast (round down) off the result.
         Double divisionResult = math.roundToLong(a / b);
 
-        // Write the code for type casting the divisionResult to an Integer
-        
         return 2;
         
     }
